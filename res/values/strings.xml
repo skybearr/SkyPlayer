@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SkyPlayer</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="stop">停止</string>
+    <string name="loop_single">单首循环</string>
+    <string name="loop_all">全部循环</string>
+    <string name="loop_random">随机播放</string>
+    <string name="title">歌名</string>
+    <string name="artist">艺术家</string>
+    <string name="song_list_des">歌曲列表</string>
+	<string name="w2"></string>
+	<string name="w3"></string>
+	<string name="w4"></string>
+	<string name="w5"></string>
+	<string name="w6"></string>
+	
+</resources>
