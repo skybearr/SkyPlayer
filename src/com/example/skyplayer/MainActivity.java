@@ -24,6 +24,7 @@ import android.widget.ListView;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
+import cn.jpush.android.service.PushService;
 
 public class MainActivity extends Activity {
 
@@ -166,7 +167,7 @@ public class MainActivity extends Activity {
 					+ TimeUtil.formatTimeToString(max,2));
 			seekbar.setProgress(process);
 		}
-					
+		
 	}
 	
 	private void changeBar()
@@ -248,6 +249,7 @@ public class MainActivity extends Activity {
 			player.seekTo(pro);
 			player.start();
 			initBtnState(true);
+			Log.d("onPrepared", "startPlay");
 		}
 	};
 	
